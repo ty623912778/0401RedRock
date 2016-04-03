@@ -1,0 +1,519 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		04BD65DF1CAE7F5B00573841 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 04BD65DE1CAE7F5B00573841 /* main.m */; };
+		04BD65E21CAE7F5B00573841 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 04BD65E11CAE7F5B00573841 /* AppDelegate.m */; };
+		04BD65E51CAE7F5B00573841 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04BD65E41CAE7F5B00573841 /* ViewController.m */; };
+		04BD65E81CAE7F5B00573841 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04BD65E61CAE7F5B00573841 /* Main.storyboard */; };
+		04BD65EA1CAE7F5B00573841 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04BD65E91CAE7F5B00573841 /* Assets.xcassets */; };
+		04BD65ED1CAE7F5B00573841 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04BD65EB1CAE7F5B00573841 /* LaunchScreen.storyboard */; };
+		04BD65F81CAE7F5B00573841 /* ____redrockTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 04BD65F71CAE7F5B00573841 /* ____redrockTests.m */; };
+		04BD66031CAE7F5B00573841 /* ____redrockUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 04BD66021CAE7F5B00573841 /* ____redrockUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		04BD65F41CAE7F5B00573841 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 04BD65D21CAE7F5B00573841 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 04BD65D91CAE7F5B00573841;
+			remoteInfo = "网络请求redrock";
+		};
+		04BD65FF1CAE7F5B00573841 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 04BD65D21CAE7F5B00573841 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 04BD65D91CAE7F5B00573841;
+			remoteInfo = "网络请求redrock";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		04BD65DA1CAE7F5B00573841 /* 网络请求redrock.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "网络请求redrock.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		04BD65DE1CAE7F5B00573841 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		04BD65E01CAE7F5B00573841 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		04BD65E11CAE7F5B00573841 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		04BD65E31CAE7F5B00573841 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		04BD65E41CAE7F5B00573841 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		04BD65E71CAE7F5B00573841 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		04BD65E91CAE7F5B00573841 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		04BD65EC1CAE7F5B00573841 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		04BD65EE1CAE7F5B00573841 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04BD65F31CAE7F5B00573841 /* 网络请求redrockTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "网络请求redrockTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		04BD65F71CAE7F5B00573841 /* ____redrockTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "____redrockTests.m"; sourceTree = "<group>"; };
+		04BD65F91CAE7F5B00573841 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04BD65FE1CAE7F5B00573841 /* 网络请求redrockUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "网络请求redrockUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		04BD66021CAE7F5B00573841 /* ____redrockUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "____redrockUITests.m"; sourceTree = "<group>"; };
+		04BD66041CAE7F5B00573841 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		04BD65D71CAE7F5B00573841 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04BD65F01CAE7F5B00573841 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04BD65FB1CAE7F5B00573841 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		04BD65D11CAE7F5B00573841 = {
+			isa = PBXGroup;
+			children = (
+				04BD65DC1CAE7F5B00573841 /* 网络请求redrock */,
+				04BD65F61CAE7F5B00573841 /* 网络请求redrockTests */,
+				04BD66011CAE7F5B00573841 /* 网络请求redrockUITests */,
+				04BD65DB1CAE7F5B00573841 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		04BD65DB1CAE7F5B00573841 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				04BD65DA1CAE7F5B00573841 /* 网络请求redrock.app */,
+				04BD65F31CAE7F5B00573841 /* 网络请求redrockTests.xctest */,
+				04BD65FE1CAE7F5B00573841 /* 网络请求redrockUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		04BD65DC1CAE7F5B00573841 /* 网络请求redrock */ = {
+			isa = PBXGroup;
+			children = (
+				04BD65E01CAE7F5B00573841 /* AppDelegate.h */,
+				04BD65E11CAE7F5B00573841 /* AppDelegate.m */,
+				04BD65E31CAE7F5B00573841 /* ViewController.h */,
+				04BD65E41CAE7F5B00573841 /* ViewController.m */,
+				04BD65E61CAE7F5B00573841 /* Main.storyboard */,
+				04BD65E91CAE7F5B00573841 /* Assets.xcassets */,
+				04BD65EB1CAE7F5B00573841 /* LaunchScreen.storyboard */,
+				04BD65EE1CAE7F5B00573841 /* Info.plist */,
+				04BD65DD1CAE7F5B00573841 /* Supporting Files */,
+			);
+			path = "网络请求redrock";
+			sourceTree = "<group>";
+		};
+		04BD65DD1CAE7F5B00573841 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				04BD65DE1CAE7F5B00573841 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		04BD65F61CAE7F5B00573841 /* 网络请求redrockTests */ = {
+			isa = PBXGroup;
+			children = (
+				04BD65F71CAE7F5B00573841 /* ____redrockTests.m */,
+				04BD65F91CAE7F5B00573841 /* Info.plist */,
+			);
+			path = "网络请求redrockTests";
+			sourceTree = "<group>";
+		};
+		04BD66011CAE7F5B00573841 /* 网络请求redrockUITests */ = {
+			isa = PBXGroup;
+			children = (
+				04BD66021CAE7F5B00573841 /* ____redrockUITests.m */,
+				04BD66041CAE7F5B00573841 /* Info.plist */,
+			);
+			path = "网络请求redrockUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		04BD65D91CAE7F5B00573841 /* 网络请求redrock */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04BD66071CAE7F5B00573841 /* Build configuration list for PBXNativeTarget "网络请求redrock" */;
+			buildPhases = (
+				04BD65D61CAE7F5B00573841 /* Sources */,
+				04BD65D71CAE7F5B00573841 /* Frameworks */,
+				04BD65D81CAE7F5B00573841 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "网络请求redrock";
+			productName = "网络请求redrock";
+			productReference = 04BD65DA1CAE7F5B00573841 /* 网络请求redrock.app */;
+			productType = "com.apple.product-type.application";
+		};
+		04BD65F21CAE7F5B00573841 /* 网络请求redrockTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04BD660A1CAE7F5B00573841 /* Build configuration list for PBXNativeTarget "网络请求redrockTests" */;
+			buildPhases = (
+				04BD65EF1CAE7F5B00573841 /* Sources */,
+				04BD65F01CAE7F5B00573841 /* Frameworks */,
+				04BD65F11CAE7F5B00573841 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				04BD65F51CAE7F5B00573841 /* PBXTargetDependency */,
+			);
+			name = "网络请求redrockTests";
+			productName = "网络请求redrockTests";
+			productReference = 04BD65F31CAE7F5B00573841 /* 网络请求redrockTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		04BD65FD1CAE7F5B00573841 /* 网络请求redrockUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04BD660D1CAE7F5B00573841 /* Build configuration list for PBXNativeTarget "网络请求redrockUITests" */;
+			buildPhases = (
+				04BD65FA1CAE7F5B00573841 /* Sources */,
+				04BD65FB1CAE7F5B00573841 /* Frameworks */,
+				04BD65FC1CAE7F5B00573841 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				04BD66001CAE7F5B00573841 /* PBXTargetDependency */,
+			);
+			name = "网络请求redrockUITests";
+			productName = "网络请求redrockUITests";
+			productReference = 04BD65FE1CAE7F5B00573841 /* 网络请求redrockUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		04BD65D21CAE7F5B00573841 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = mac;
+				TargetAttributes = {
+					04BD65D91CAE7F5B00573841 = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+					04BD65F21CAE7F5B00573841 = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = 04BD65D91CAE7F5B00573841;
+					};
+					04BD65FD1CAE7F5B00573841 = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = 04BD65D91CAE7F5B00573841;
+					};
+				};
+			};
+			buildConfigurationList = 04BD65D51CAE7F5B00573841 /* Build configuration list for PBXProject "网络请求redrock" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 04BD65D11CAE7F5B00573841;
+			productRefGroup = 04BD65DB1CAE7F5B00573841 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				04BD65D91CAE7F5B00573841 /* 网络请求redrock */,
+				04BD65F21CAE7F5B00573841 /* 网络请求redrockTests */,
+				04BD65FD1CAE7F5B00573841 /* 网络请求redrockUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		04BD65D81CAE7F5B00573841 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04BD65ED1CAE7F5B00573841 /* LaunchScreen.storyboard in Resources */,
+				04BD65EA1CAE7F5B00573841 /* Assets.xcassets in Resources */,
+				04BD65E81CAE7F5B00573841 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04BD65F11CAE7F5B00573841 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04BD65FC1CAE7F5B00573841 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		04BD65D61CAE7F5B00573841 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04BD65E51CAE7F5B00573841 /* ViewController.m in Sources */,
+				04BD65E21CAE7F5B00573841 /* AppDelegate.m in Sources */,
+				04BD65DF1CAE7F5B00573841 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04BD65EF1CAE7F5B00573841 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04BD65F81CAE7F5B00573841 /* ____redrockTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04BD65FA1CAE7F5B00573841 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04BD66031CAE7F5B00573841 /* ____redrockUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		04BD65F51CAE7F5B00573841 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 04BD65D91CAE7F5B00573841 /* 网络请求redrock */;
+			targetProxy = 04BD65F41CAE7F5B00573841 /* PBXContainerItemProxy */;
+		};
+		04BD66001CAE7F5B00573841 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 04BD65D91CAE7F5B00573841 /* 网络请求redrock */;
+			targetProxy = 04BD65FF1CAE7F5B00573841 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		04BD65E61CAE7F5B00573841 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				04BD65E71CAE7F5B00573841 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		04BD65EB1CAE7F5B00573841 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				04BD65EC1CAE7F5B00573841 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		04BD66051CAE7F5B00573841 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		04BD66061CAE7F5B00573841 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		04BD66081CAE7F5B00573841 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "网络请求redrock/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "mac.----redrock";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		04BD66091CAE7F5B00573841 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "网络请求redrock/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "mac.----redrock";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		04BD660B1CAE7F5B00573841 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "网络请求redrockTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "mac.----redrockTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/网络请求redrock.app/网络请求redrock";
+			};
+			name = Debug;
+		};
+		04BD660C1CAE7F5B00573841 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "网络请求redrockTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "mac.----redrockTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/网络请求redrock.app/网络请求redrock";
+			};
+			name = Release;
+		};
+		04BD660E1CAE7F5B00573841 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "网络请求redrockUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "mac.----redrockUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "网络请求redrock";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		04BD660F1CAE7F5B00573841 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "网络请求redrockUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "mac.----redrockUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "网络请求redrock";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		04BD65D51CAE7F5B00573841 /* Build configuration list for PBXProject "网络请求redrock" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04BD66051CAE7F5B00573841 /* Debug */,
+				04BD66061CAE7F5B00573841 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04BD66071CAE7F5B00573841 /* Build configuration list for PBXNativeTarget "网络请求redrock" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04BD66081CAE7F5B00573841 /* Debug */,
+				04BD66091CAE7F5B00573841 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		04BD660A1CAE7F5B00573841 /* Build configuration list for PBXNativeTarget "网络请求redrockTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04BD660B1CAE7F5B00573841 /* Debug */,
+				04BD660C1CAE7F5B00573841 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		04BD660D1CAE7F5B00573841 /* Build configuration list for PBXNativeTarget "网络请求redrockUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04BD660E1CAE7F5B00573841 /* Debug */,
+				04BD660F1CAE7F5B00573841 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 04BD65D21CAE7F5B00573841 /* Project object */;
+}
